@@ -271,17 +271,23 @@ footer {
     position: relative; /* Position relative for absolute positioning of overlay */
     display: inline-block;
     cursor: pointer; /* Change cursor to pointer on hover */
+    height: auto;
+    width: auto;
 }
 .image-container2 {
     position: relative; /* Position relative for absolute positioning of overlay */
     display: inline-block;
     cursor: pointer; /* Change cursor to pointer on hover */
+    height: auto;
+    width: auto;
 }
 
 .image-container3 {
     position: relative; /* Position relative for absolute positioning of overlay */
     display: inline-block;
     cursor: pointer; /* Change cursor to pointer on hover */
+    height: auto;
+    width: auto;
 }
 
 .image {
