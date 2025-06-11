@@ -20,7 +20,7 @@
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Services</a></li></div-->
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><button id="openFormButton"><a href="#contact">Contact Us</a></button></li>
             </ul>
             <div class="social-icons">
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -208,6 +208,11 @@
 
             <button type="submit">submit</button>
       </form>
+      <script>
+        document.getElementById("openFormButton").onclick = function() {
+        document.getElementById("contact").style.display = "block"; // Show the form
+        };
+       </script>
     </section>
 
     <!--section id = contactbutton>
