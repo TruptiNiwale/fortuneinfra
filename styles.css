@@ -25,6 +25,12 @@ header {
     text-align: center;
 
 }
+
+#openFormButton {
+    background-color: #297bbf;
+    color: white;
+}
+
 .navigation{
      align-items: right;
      text-align: right;
@@ -381,7 +387,7 @@ footer {
 }
 
 #contact {
-    display: block;
+    display: none;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
